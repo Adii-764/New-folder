@@ -1,0 +1,9 @@
+digraph {
+	A [label="Define QoS Policies"]
+	B [label="Prioritize Traffic Types"]
+	C [label="Implement Traffic Shaping"]
+	D [label="Monitor QoS Metrics"]
+	A -> B
+	B -> C
+	C -> D
+}

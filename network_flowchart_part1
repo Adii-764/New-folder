@@ -1,0 +1,13 @@
+digraph {
+	node [color="#FF5733" fontcolor=black style=filled]
+	"Define Network Goals"
+	"Define Network Goals" -> analysis
+	"Select Hardware and Software"
+	"Select Hardware and Software" -> analysis
+	node [color="#34D2EB" fontcolor=black style=filled]
+	"Conduct Site Survey"
+	"Conduct Site Survey" -> optimization
+	"Analyze Existing Infrastructure"
+	"Analyze Existing Infrastructure" -> optimization
+	graph [nodesep=0.6 ranksep=1 splines=ortho]
+}

@@ -1,0 +1,9 @@
+digraph {
+	A [label="Gather Network Data"]
+	B [label="Conduct Performance Analysis"]
+	C [label="Identify Bottlenecks"]
+	D [label="Generate Reports"]
+	A -> B
+	B -> C
+	C -> D
+}

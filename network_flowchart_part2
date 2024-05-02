@@ -1,0 +1,18 @@
+digraph {
+	node [color="#8A2BE2" fontcolor=black style=filled]
+	"Optimize Network Topology"
+	"Optimize Network Topology" -> implementation
+	"Implement Quality of Service"
+	"Implement Quality of Service" -> implementation
+	node [color="#32CD32" fontcolor=black style=filled]
+	"Configure Routers and Switches"
+	"Configure Routers and Switches" -> monitoring
+	"Set Up Security Protocols"
+	"Set Up Security Protocols" -> monitoring
+	node [color="#FFD700" fontcolor=black style=filled]
+	"Monitor Traffic and Performance"
+	"Monitor Traffic and Performance" -> monitoring
+	"Perform Regular Audits"
+	"Perform Regular Audits" -> monitoring
+	graph [nodesep=0.6 ranksep=1 splines=ortho]
+}

@@ -1,0 +1,9 @@
+digraph {
+	A [label="Conduct Security Audit"]
+	B [label="Implement Encryption Protocols"]
+	C [label="Configure Access Control"]
+	D [label="Monitor for Anomalies"]
+	A -> B
+	B -> C
+	C -> D
+}

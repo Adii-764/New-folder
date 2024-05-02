@@ -1,0 +1,9 @@
+digraph {
+	A [label="Analyze Interference Sources"]
+	B [label="Optimize Channel Allocation"]
+	C [label="Adjust Transmission Power"]
+	D [label="Evaluate Improvements"]
+	A -> B
+	B -> C
+	C -> D
+}
